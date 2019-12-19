@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="spingarr">
+        <item>拼书</item>
+        <item>拼餐饮</item>
+        <item>拼伞</item>
+        <item>其他</item>
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/p_title"
+        android:layout_width="800px"
+        android:layout_marginTop="400px"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="58px"
+        />
+    <TextView
+        android:id="@+id/p_body"
+        android:layout_width="800px"
+        android:layout_marginTop="50px"
+        android:layout_height="wrap_content"
+        android:textSize="58px"
+        />
+    <TextView
+        android:id="@+id/p_where"
+        android:layout_width="800px"
+        android:layout_marginTop="50px"
+        android:layout_height="wrap_content"
+        android:textSize="58px"
+        />
+    <TextView
+        android:id="@+id/p_time"
+        android:layout_width="800px"
+        android:layout_marginTop="50px"
+        android:layout_height="wrap_content"
+        android:textSize="58px"
+        />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:text="联系他/她"
+        android:background="@drawable/shape"
+        android:textSize="58px"
+        />
+    <Button
+        android:id="@+id/report"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="举报他/她"
+        android:background="@drawable/shape"
+        android:textSize="58px"
+        />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.listview">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="福大拼拼吧"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Jubao"
+            android:label="举报"></activity>
+        <activity
+            android:name=".Fatie_Record"
+            android:label="历史发帖记录" />
+        <activity
+            android:name=".Pindan_Record"
+            android:label="举报反馈" />
+        <activity
+            android:name=".MainActivity"
+            android:label="福大拼拼吧">
+
+        </activity>
+        <activity android:name=".sign_out">
+
+        </activity>
+        <activity android:name=".sign_in">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".post_show"/>
+        <activity android:name=".detail_post"/>
+    </application>
+
+</manifest>
